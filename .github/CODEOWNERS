@@ -1,0 +1,37 @@
+# CODEOWNERS file for event-server-23
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-notifications @Armor-test/dept-logging @Armor-test/squad-search
+
+# Directory ownership
+/tests/ @Armor-test/team-research @Armor-test/dept-reporting @Armor-test/grp-ui
+/static/ @Armor-test/dept-release @Armor-test/unit-design @Armor-test/squad-tooling
+/app/ @Armor-test/dept-notifications @Armor-test/dept-ui @Armor-test/dept-release
+/tools/ @Armor-test/squad-cache @Armor-test/grp-payments
+/core/ @Armor-test/team-governance @Armor-test/squad-reporting @Armor-test/team-security
+/utils/ @Armor-test/grp-search @Armor-test/squad-research
+/pages/ @Armor-test/grp-ui @Armor-test/unit-design @Armor-test/squad-database
+/scripts/ @Armor-test/unit-devops @Armor-test/grp-storage
+/spec/ @Armor-test/squad-cache @Armor-test/dept-test @Armor-test/grp-integration
+/shared/ @Armor-test/dept-reliability @Armor-test/dept-data
+
+# File type ownership
+*.rs @Armor-test/team-governance @Armor-test/unit-design @Armor-test/dept-billing
+*.yml @Armor-test/grp-reporting @Armor-test/squad-product @Armor-test/team-logging
+*.config @Armor-test/dept-security @Armor-test/grp-integration @Armor-test/team-reporting
+*.html @Armor-test/team-frontend @Armor-test/grp-reporting @Armor-test/squad-performance
+*.js @Armor-test/grp-api @Armor-test/dept-identity
+*.java @Armor-test/dept-test @Armor-test/grp-reporting @Armor-test/squad-performance
+*.ts @Armor-test/team-notifications @Armor-test/grp-search
+*.toml @Armor-test/dept-reliability @Armor-test/squad-cloud @Armor-test/team-core
+*.lock @Armor-test/team-governance @Armor-test/grp-storage
+*.css @Armor-test/dept-release @Armor-test/unit-devops @Armor-test/dept-security
+*.go @Armor-test/grp-api @Armor-test/grp-storage @Armor-test/squad-api
+*.json @Armor-test/grp-reporting @Armor-test/squad-product
+*.h @Armor-test/grp-storage @Armor-test/squad-research
+*.tf @Armor-test/dept-security @Armor-test/squad-database
+*.ini @Armor-test/team-reporting @Armor-test/squad-performance
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+/src/**/security/ @Armor-test/security @Armor-test/compliance
